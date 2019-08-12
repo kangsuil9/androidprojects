@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DBManagerTest</string>
+
+    <string name="emailaddress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="retrypassword">Retry Password</string>
+    <string name="next">Next</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="artunit">Apt / Unit</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="country">Country</string>
+    <string name="postcode">Post Code</string>
+    <string name="aboutme">About me (1000KB)</string>
+    <string name="signup">Sign Up</string>
+    <string-array name="genderitem">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="date">Date</string>
+    <string name="guest">Guest</string>
+    <string name="type">Type</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/guest_mytrip_future_past_icon"
+            android:src="@drawable/dot"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/guest_mytrip_future_past_icon"
+            android:id="@+id/guest_mytrip_title_cityname"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Suwon"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/holo_blue_light"
+            android:id="@+id/guest_mytrip_sub_food"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:id="@+id/guest_mytrip_sub_profile_picture"
+            android:layout_alignParentEnd="true"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/guest_mytrip_sub_food"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/guest_mytrip_sub_flag"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/guest_mytrip_sub_flag"
+            android:background="@android:color/holo_purple"
+            android:id="@+id/guest_mytrip_sub_countryname"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/guest_mytrip_sub_countryname"
+            android:layout_toLeftOf="@+id/guest_mytrip_sub_profile_picture"
+            android:background="@android:color/holo_red_light"
+            android:id="@+id/guest_mytrip_sub_cityname"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/guest_mytrip_sub_flag"
+            android:layout_toRightOf="@+id/guest_mytrip_sub_food"
+            android:layout_toLeftOf="@+id/guest_mytrip_sub_profile_picture"
+            android:background="@android:color/darker_gray"
+            android:id="@+id/guest_mytrip_sub_type"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/guest_mytrip_sub_type"
+            android:layout_toRightOf="@+id/guest_mytrip_sub_food"
+            android:layout_toLeftOf="@+id/guest_mytrip_sub_profile_picture"
+            android:background="@android:color/holo_green_dark"
+            android:id="@+id/guest_mytrip_sub_price"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/guest_mytrip_sub_price"
+            android:layout_toRightOf="@+id/guest_mytrip_sub_food"
+            android:layout_toLeftOf="@+id/guest_mytrip_sub_profile_picture"
+            android:background="@android:color/holo_orange_light"
+            android:id="@+id/guest_mytrip_sub_date"/>
+    </RelativeLayout>
+</LinearLayout>
