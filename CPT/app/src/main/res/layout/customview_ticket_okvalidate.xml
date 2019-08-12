@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/st_tickets_okvalidate">
+        </TextView>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:background="@color/whitegray"
+                android:orientation="horizontal">
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    tools:src="@drawable/normaltype"
+                    android:id="@+id/ivt_tickets_validatetickettype">
+            </ImageView>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    tools:text="@string/st_tickets_agegroup"
+                    android:id="@+id/tvt_tickets_validateagegroup">
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/st_tickets_questionforvalidate">
+        </TextView>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnt_tickets_validatecancel"
+                    android:layout_marginEnd="50dp"
+                    android:text="@string/cancel">
+            </Button>
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnt_tickets_validateconfirm"
+                    android:text="@string/confirm">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

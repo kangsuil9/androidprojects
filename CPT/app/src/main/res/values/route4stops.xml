@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="route4stops">
+        <item>5266 EB @ 78 AV NW Terminal</item>
+        <item>5268 EB 78 AV NE @ Huntham RD</item>
+        <item>9010 EB 78 AV NE @ Huntridge HL</item>
+        <item>9011 EB 78 AV NE @ Huntington RD</item>
+        <item>5269 SB Huntington ST @ 78 AV NE</item>
+        <item>5270 SB 4 ST NE @ 72 AV NE</item>
+        <item>9584 SB 4 ST NE @ Hunterhorn GA</item>
+        <item>9016 SB 4 ST NE @ Huntbourne WY</item>
+        <item>5271 SB 4 ST NE @ 64 AV NE</item>
+        <item>8987 SB 4 ST NE @ Blackthorn RD</item>
+        <item>8988 SB 4 ST NE @ 60 AV NE</item>
+        <item>5272 SB 4 ST NE @ S. of 60 AV NE</item>
+        <item>8989 SB 4 ST NE @ Grier PL</item>
+        <item>8990 SB 4 ST NE @ Grier AV</item>
+        <item>5273 SB Edmonton TR @ McKnight BV NE</item>
+        <item>8982 SB Edmonton TR @ N. of Greenview DR NE</item>
+        <item>8983 SB Edmonton TR @ Greenview DR NE</item>
+        <item>7298 SB Edmonton TR @ 41 AV NE</item>
+        <item>5274 SB Edmonton TR @ 37 AV NE</item>
+        <item>5275 SB Edmonton TR @ 35 AV NE</item>
+        <item>6583 SB Edmonton TR @ 32 AV NE</item>
+        <item>6584 SB Edmonton TR @ 30 AV NE</item>
+        <item>5276 SB Edmonton TR @ 27 AV NE</item>
+        <item>6708 SB Edmonton TR @ 25 AV NE</item>
+        <item>6735 SB Edmonton TR @ 23 AV NE</item>
+        <item>6755 SB Edmonton TR @ 21 AV NE</item>
+        <item>6768 SB Edmonton TR @ 19 AV NE</item>
+        <item>6690 SB Edmonton TR @ 16 AV NE</item>
+        <item>5510 SB Edmonton TR @ 14 AV NE</item>
+        <item>5277 SB Edmonton TR @ 12 AV NE</item>
+        <item>5777 SB Edmonton TR @ 10 AV NE</item>
+        <item>5918 SB Edmonton TR @ 8 AV NE</item>
+        <item>2024 SB Edmonton TR @ 6 AV NE</item>
+        <item>5938 SB 4 ST NE @ 1 AV NE</item>
+        <item>5279 SB 4 ST NE @ Meredith RD</item>
+        <item>5005 WB 6 AV SE @ Macleod TR</item>
+        <item>7466 WB 6 AV SE @ 1 ST SE</item>
+        <item>5115 WB 6 AV SW @ 1 ST SW</item>
+        <item>5121 WB 6 AV SW @ 3 ST SW</item>
+        <item>6523 WB 6 AV SW @ 6 ST SW</item>
+        <item>6133 WB 4 AV SW @ 7 ST SW</item>
+        <item>7666 WB 4 AV SW @ 8 ST SW</item>
+        <item>5224 NB 10 ST NW @ Kensington RD</item>
+        <item>8045 NB 10 ST NW @ 3 AV NW</item>
+        <item>8046 NB 10 ST NW @ 5 AV NW</item>
+        <item>7672 NB 10 ST NW @ 13 AV NW</item>
+        <item>8968 NB 10 ST NW @ 16 AV NW</item>
+        <item>5229 NB 10 ST NW@ 18 AV NW</item>
+        <item>8969 NB 10 ST NW @ 20 AV NW</item>
+        <item>6721 NB 10 ST NW @ 23 AV NW</item>
+        <item>8970 NB 10 ST NW @ Rosehill DR</item>
+        <item>8971 NB Cambrian DR @ 31 AV NW</item>
+        <item>5230 NB Cambrian DR@ Northmount DR NW</item>
+        <item>5493 NB 14 ST NW @ Cambrian DR</item>
+        <item>5231 NB 14 ST NW @ Cromwell AV</item>
+        <item>7433 NB 14 ST NW @ Cornwallis DR</item>
+        <item>5232 EB North Haven DR@ 14 ST NW</item>
+        <item>7434 NB North Haven DR @ Namaka CR NW</item>
+        <item>7435 NB North Haven DR @ Nipawin CR NW</item>
+        <item>5233 NB North Haven DR @ 48 AV NW</item>
+        <item>9003 NB North Haven DR @ Nesbitt RD NW</item>
+        <item>6753 NB North Haven DR @ 56 AV NW</item>
+        <item>8997 EB Norfolk DR @ Norfolk WY NW</item>
+        <item>8998 EB Norfolk DR @ Thornaby CR NW</item>
+        <item>8999 NB 64 AV NW @ Norfolk DR NW</item>
+        <item>9005 EB 64 AV NW @ Hunterview DR</item>
+        <item>9050 EB 64 AV NW @ Hunts CR</item>
+        <item>5783 NB 4 ST NW @ 68 AV NW (JG Diefenbaker HS)</item>
+        <item>9015 NB 4 ST NW @ 68 AV NW (Superstore)</item>
+        <item>7537 NB Centre ST N @ 72 AV N</item>
+        <item>5157 NB Centre ST N @ S.OF 78 AV N</item>
+        <item>5266 EB @ 78 AV NW Terminal</item>
+    </string-array>
+</resources>

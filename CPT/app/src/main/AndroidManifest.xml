@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.cpt">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".AdminResult">
+        </activity>
+        <activity android:name=".Admin">
+        </activity>
+        <activity android:name=".SignUp">
+        </activity>
+        <activity android:name=".SignIn">
+        </activity>
+        <activity android:name=".Search.CPT_Search_Stop">
+        </activity>
+        <activity android:name=".Search.CPT_Search_Route">
+        </activity>
+        <activity android:name=".Ticketting.CPT_Ticketting_history">
+        </activity>
+        <activity android:name=".Ticketting.CPT_Ticketting_Tickets">
+        </activity>
+        <activity android:name=".Ticketting.CPT_Ticketting_Monthly">
+        </activity>
+        <activity android:name=".Ticketting.CPT_Ticketting_Daily">
+        </activity>
+        <activity android:name=".Ticketting.CPT_Ticketting_Single">
+        </activity>
+        <activity android:name=".more.CPT_More_Dataprotection">
+        </activity>
+        <activity android:name=".more.CPT_More_Terms">
+        </activity>
+        <activity android:name=".more.CPT_More_LocationPermission">
+        </activity>
+        <activity android:name=".more.CPT_More_News">
+        </activity>
+        <activity android:name=".more.CPT_More_PaymentCard">
+        </activity>
+        <activity android:name=".more.CPT_More_Myinfo">
+        </activity>
+        <activity android:name=".Intro_Done">
+        </activity>
+        <activity android:name=".Intro_Terms">
+        </activity>
+        <activity android:name=".Intro_NotificationPermission">
+        </activity>
+        <activity android:name=".Intro_LocationPermission">
+        </activity>
+        <activity android:name=".Intro_PlaceYouLive">
+        </activity>
+        <activity android:name=".Intro_Age">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

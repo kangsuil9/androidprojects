@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:id="@+id/btnmt_extension"
+            android:layout_margin="20dp"
+            android:text="Extenstion"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-black">
+    </Button>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvmt_timeleft_time"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp">
+    </TextView>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvmt_timeleft"
+            android:layout_gravity="center"
+            tools:text="@string/smt_timeleft"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40sp">
+    </TextView>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/ivmt_tickets">
+    </ImageView>
+
+</LinearLayout>

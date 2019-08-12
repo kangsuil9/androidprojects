@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".more.CPT_More">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+        <com.example.cpt.more.More_ItemOfList
+                app:tvmore_itemname="@string/smore_myinformation"
+                app:ivmore_lefticon="@drawable/myinfo"
+                app:ivmore_righticon="@drawable/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listmore_myinfo">
+        </com.example.cpt.more.More_ItemOfList>
+
+        <com.example.cpt.more.More_ItemOfList
+                app:tvmore_itemname="@string/smore_paymentcard"
+                app:ivmore_lefticon="@drawable/paycard"
+                app:ivmore_righticon="@drawable/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listmore_paycard">
+        </com.example.cpt.more.More_ItemOfList>
+
+        <com.example.cpt.more.More_ItemOfList
+                app:tvmore_itemname="@string/smore_transitnews"
+                app:ivmore_lefticon="@drawable/news"
+                app:ivmore_righticon="@drawable/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listmore_transitnews">
+        </com.example.cpt.more.More_ItemOfList>
+
+        <com.example.cpt.more.More_ItemOfList
+                app:tvmore_itemname="@string/smore_locationpermit"
+                app:ivmore_lefticon="@drawable/map"
+                app:ivmore_righticon="@drawable/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listmore_locationpermit">
+        </com.example.cpt.more.More_ItemOfList>
+
+        <com.example.cpt.more.More_ItemOfList
+                app:tvmore_itemname="@string/smore_notifications"
+                app:ivmore_lefticon="@drawable/notice"
+                app:ivmore_righticon="@drawable/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listmore_notifications">
+        </com.example.cpt.more.More_ItemOfList>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smore_terms"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif-black"
+                    android:id="@+id/tvmore_terms">
+            </TextView>
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+            </View>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/smore_dataprotection"
+                    android:fontFamily="sans-serif-black"
+                    android:id="@+id/tvmore_dataprotection">
+            </TextView>
+        </LinearLayout>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:text="@string/smore_logout"
+                android:fontFamily="sans-serif-black"
+                android:background="@drawable/roundbutton"
+                android:textColor="@android:color/white"
+                android:id="@+id/btnmore_logout">
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

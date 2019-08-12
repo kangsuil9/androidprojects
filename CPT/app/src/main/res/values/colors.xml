@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4E4E</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="saperatebar">#DFDFDF</color>
+    <color name="whitegray">#FFDFDFDF</color>
+    <color name="colorofcalgarytransit">#AC3038</color>
+</resources>

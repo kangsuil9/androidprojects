@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white">
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvmore_paycard_cardname"
+                android:fontFamily="sans-serif-black"
+                tools:text="@string/smore_paycard_cardname"
+                android:textSize="15sp">
+        </TextView>
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp">
+        </View>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvmore_paycard_cardnumber"
+                android:fontFamily="sans-serif-black"
+                tools:text="@string/smore_paycard_cardnumber">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ivmore_paycard_modify"
+                tools:src="@drawable/modify">
+        </ImageView>
+        <View
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+        </View>
+        <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ivmore_paycard_bin"
+                tools:src="@drawable/bin">
+        </ImageView>
+
+    </LinearLayout>
+</LinearLayout>

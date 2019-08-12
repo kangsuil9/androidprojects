@@ -1,0 +1,206 @@
+<resources>
+
+    <!-- SYSTEM String -->
+    <string name="app_name">CPT</string>
+    <string name="identitypool_id">ca-central-1:9c8421a5-6993-4b68-b4eb-cc7de75107fc</string>
+
+    <!-- COMMON -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="mandatoryicon">*</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">OK</string>
+    <string name="canadadollar">$</string>
+    <string name="price">Price</string>
+    <string name="taxinclude">Incl. VAT 5%</string>
+    <string name="gotopayment">Go to Payment</string>
+    <string name="paymentmethod">Payment Method</string>
+    <string name="dateofbought">Date of Bought</string>
+    <string name="dateofvalidation">Date of Validation</string>
+    <string name="emptydate">YYYY/MM/DD HH:MM.SS</string>
+    <string name="SINGLE_TICKET_TIME_MILLS">5400000</string>
+    <string name="DAY_TIME_MILLS">86400000</string>
+
+    <!-- Shared Preference Variables -->
+    <string name="LOGIN_INFO">LOGININFO</string>
+    <string name="LIKE_LIST">LIKELIST</string>
+    <string name="TICKET_LIST">TICKETLIST</string>
+    <string name="TICKET_CURRENTTIME">TICKETCURRENTTIME</string>
+    <string name="HISTORY_TICKET_LIST">HISTORYTICKETLIST</string>
+    <string name="AVAILABLE_TICKET_LIST">AVAILABLETICKETLIST</string>
+
+    <string name="SIGNIN_INFO">SIGNININFO</string>
+    <string name="SIGNIN_EMAIL">EMAIL</string>
+    <string name="SIGNIN_SEQUENCE">SEQUENCE</string>
+    <string name="SIGNIN_AGEGROUP">AGEGROUP</string>
+    <string name="SIGNIN_FIRSTNAME">FIRSTNAME</string>
+    <string name="SIGNIN_MIDDLENAME">MIDDLENAME</string>
+    <string name="SIGNIN_LASTNAME">LASTNAME</string>
+
+    <string name="AGETYPE">AGETYPE</string>
+    <string name="AGETYPE_YOUTH">YOUTH</string>
+    <string name="AGETYPE_ADULT">ADULT</string>
+    <string name="AGETYPE_SENIOR">SENIOR</string>
+    <string name="WHEREYOULIVE">WHEREYOULIVE</string>
+    <string name="LOGINDONE">LOGINDONE</string>
+    <string name="FIRSTNAME">FIRSTNAME</string>
+    <string name="LASTNAME">LASTNAME</string>
+    <string name="PHONENUMVER">PHONENUMBER</string>
+    <string name="EMAIL">EMAIL</string>
+
+    <!-- Intro Age Strings -->
+    <string name="si_age_hello">Hello!</string>
+    <string name="si_age_description">Thank you for downloading the app. This app allows you to buy tickets, get
+        information about Calgary Public Transportation. After few steps, you can start the app.
+    </string>
+    <string name="si_age_youth">I am under 16 years of age</string>
+    <string name="si_age_adult">I am over 16 and under 65 years of age</string>
+    <string name="si_age_senior">I am over 65 years of age</string>
+    <string name="si_age_continue">Continue</string>
+
+    <!-- Intro PlaceYouLive Strings -->
+    <string name="si_place_hello">Where do you live?</string>
+    <string name="si_place_description">The application selects the transport information you receive on the basic of
+        this information.
+    </string>
+    <string name="si_place_postcode">Your postcode</string>
+    <string name="si_place_continue">Continue</string>
+
+    <!-- Intro Location Permission Strings -->
+    <string name="si_location_hello">Location Permission</string>
+    <string name="si_location_description">Location services are helpful when you use find stations.</string>
+    <string name="si_location_permission">Give Permission</string>
+    <string name="si_location_skip">Skip</string>
+
+    <!-- Intro Notification Permission Strings -->
+    <string name="si_notification_hello">Notification Permission</string>
+    <string name="si_notification_description">You get reminders when your tickets are about to expire.</string>
+    <string name="si_notification_permission">Give Permission</string>
+    <string name="si_notification_skip">Skip</string>
+
+    <!-- Intro Terms and Conditions Strings -->
+    <string name="si_terms_terms">CPT Mobile App terms of Use</string>
+    <string name="si_terms_termsdetails1">1. Terms of Use and the agreement they create</string>
+    <string name="si_terms_termsdetails2">2. Your access right</string>
+    <string name="si_terms_dataprotection">How we process your personal data</string>
+    <string name="si_terms_dataprotectiondetails">When you use the service, we collect information about you in order to
+        provide you more personalized service. you can trust us to look after your privacy
+    </string>
+    <string name="si_terms_continue">Continue</string>
+
+    <!-- Intro Done Strings -->
+    <string name="si_done">Done!</string>
+    <string name="si_done_description">Now You are ready to use the app.</string>
+    <string name="si_done_continue">Continue</string>
+
+    <!-- Sign In Strings -->
+    <string name="s_signin_hint_email">example@gmail.com</string>
+    <string name="s_signin_hint_password">********</string>
+    <string name="Email">E-mail</string>
+    <string name="Password">Password</string>
+    <string name="SignIn">Sign In</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="warning_noemail">Please Put your Email</string>
+    <string name="warning_nopassword">Please Put your Password</string>
+    <string name="warning_nouser">Check your Email (No Email)</string>
+    <string name="warning_wrongpassword">Check your Password(Invalid Password)</string>
+
+    <!-- Sign Up Strings -->
+    <string name="s_signup_hint_email">example@gmail.com</string>
+    <string name="s_signup_hint_password">********</string>
+    <string name="Repassword">Re-Password</string>
+    <string name="Agegroup">Age Group</string>
+    <string name="warning_emailexist">Email you enter already exists</string>
+    <string name="warning_notsamepassword">Please Put the same Password</string>
+    <string name="warning_lastname">Last Name is Mandatory</string>
+    <string name="warning_agegroup">Choose one of Age Group where you are belong to</string>
+    <string name="warning_passwordpolicy">Password must be at least 8 and include digit and character</string>
+
+    <!-- More Main Strings -->
+    <string name="smore_myinformation">My Information</string>
+    <string name="smore_paymentcard">Payment Card</string>
+    <string name="smore_transitnews">Transit News</string>
+    <string name="smore_locationpermit">Location Permission</string>
+    <string name="smore_notifications">Notifications</string>
+    <string name="smore_terms">Terms of Use</string>
+    <string name="smore_dataprotection">Data Protection</string>
+    <string name="smore_logout">Log Out</string>
+
+    <!-- More MyInfo Strings -->
+    <string name="smore_myinfo_firstname">First Name</string>
+    <string name="smore_myinfo_middlename">Middle Name</string>
+    <string name="smore_myinfo_lastname">Last Name</string>
+    <string name="smore_myinfo_postcode">Post Code</string>
+    <string name="smore_myinfo_phonenumber">Phone Number</string>
+    <string name="smore_myinfo_email">Email</string>
+
+    <!-- More Payment Card Strings -->
+    <string name="smore_paycard_addcard">Add Card</string>
+    <string name="smore_paycard_cardname">Kays Credit Card</string>
+    <string name="smore_paycard_cardnumber">**** **** **** 2627 (10/21)</string>
+    <string name="smore_paycard_changecardname">Change Card Name</string>
+
+    <!-- More News Strings -->
+
+    <!-- More Location Permission Strings -->
+    <string name="smore_locationpermission_status">Location Service Enabled</string>
+    <string name="smore_locationpermission_setting">Disable ></string>
+
+    <!-- Buy Tickets Strings -->
+    <string name="st_buyticket">Buy a Ticket</string>
+    <string name="st_singleticket">Single Ticket</string>
+    <string name="st_dailypass">Daily Pass</string>
+    <string name="st_monthlypass">Monthly Pass</string>
+    <string name="st_viewtickets">View Tickets</string>
+    <string name="st_tickets">Tickets</string>
+    <string name="st_ticket">Ticket</string>
+    <string name="st_tickettype">Ticket Type</string>
+    <string name="st_ticketsequence">Ticket Sequence</string>
+    <string name="st_ticketsequence_withround">(Ticket Sequence)</string>
+    <string name="st_viewhistory">View Ticket History</string>
+    <string name="st_purchasehistory">Purchase History</string>
+    <string name="st_agegroup">Age Group</string>
+
+    <!-- Buy Single Tickets Strings -->
+    <string name="st_buysingleticket">Buy a Single Ticket</string>
+
+    <!-- Buy Dilay pass Strings -->
+    <string name="st_buydailypass">Buy a daily pass</string>
+
+    <!-- Buy Monthly pass Strings -->
+    <string name="st_buymonthlypass">Buy a Monthly pass</string>
+
+    <!-- View Tickets Strings -->
+    <string name="st_tickets_availabletickets">Available Tickets</string>
+    <string name="st_tickets_validate">Validate</string>
+    <string name="st_tickets_okvalidate">Validate a Ticket</string>
+    <string name="st_tickets_agegroup">Adult/Youth</string>
+    <string name="st_tickets_questionforvalidate">Are you sure that you want to validate this ticket now?</string>
+
+    <!-- View History Strings -->
+    <string name="st_history_viewhistory">Purchased History</string>
+    <string name="st_history_receipt">Receipt</string>
+
+    <!-- Search Main Strings -->
+    <string name="ss_main_routestop">Route or Station</string>
+
+    <!-- Search Route Strings -->
+    <string name="ss_route_weekday">Week Day</string>
+    <string name="ss_route_weekend">Weekend and Holiday</string>
+    <string name="ss_route_firsttime">First Time</string>
+    <string name="ss_route_lasttime">Last Time</string>
+
+    <!-- MyTicket Strings -->
+    <string name="smt_timeleft">HH:MM:SS</string>
+
+    <!-- Search Stops Strings -->
+    <string name="ss_stop_realtime_minutes">mins</string>
+
+    <!-- Admin Strings -->
+    <string name="sadmin_checkticket">Check Tickets</string>
+    <string name="sadmin_logout">Log Out</string>
+    <string name="sadmin_title">Administrator Ticket Check</string>
+    <string name="sadminresult_title">Valid Tickets</string>
+
+</resources>

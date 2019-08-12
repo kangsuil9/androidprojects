@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="More_ItemOfList">
+        <attr name="ivmore_lefticon" format="reference"/>
+        <attr name="tvmore_itemname" format="string"/>
+        <attr name="ivmore_righticon" format="reference"/>
+    </declare-styleable>
+</resources>
